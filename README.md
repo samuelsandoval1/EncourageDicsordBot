@@ -5,8 +5,8 @@ Works locally at the moment.
 
 # Commands 📱
 
-$new Word - Adds a statement to the database ✏️
-$list - returns the list of positive messages 📝
+$new Word - Adds a statement to the database ✏️ <br>
+$list - returns the list of positive messages 📝 <br>
 $del # - Removes the word at the index of # 🧹
 
 Note: Typing words like sad, depressed, angry, miserable will return a encouraging message.
