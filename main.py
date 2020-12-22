@@ -60,6 +60,9 @@ async def on_message(message):
 
     if any(word in msg for word in sad_words):
       await message.channel.send(random.choice(starter_encouragements))
+      
+  if msg.startswith('$help'):
+    await message.channel.send("Here are some commands you can run: $new word- adds a word, $list - returns list, $del # - delete at an index, and type a sad word to get a random encouraging phrase")
 
   if msg.startswith('$new'):
     encouraging_message = msg.split("$new ", 1)[1]
